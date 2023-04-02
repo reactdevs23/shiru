@@ -10,8 +10,7 @@
 }
 .marquee {
   display: flex;
-  max-width: 1200px;
-  width: 100%;
+  width: 1200px;
   overflow: hidden;
   user-select: none;
 
