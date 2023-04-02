@@ -1,0 +1,139 @@
+.presaleCalculator {
+  border-radius: 20px;
+  background: #0064aa;
+  width: 100%;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 15px;
+}
+
+.cardTitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px 15px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.inputContainer,
+.stageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #ffffff;
+  border-radius: 5px;
+
+  position: relative;
+}
+.stageContainer {
+  padding-right: 8px;
+  position: relative;
+}
+.stages {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 5px;
+  top: 40px;
+  left: 0;
+  min-width: 100%;
+
+  z-index: 1;
+}
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 130%;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+
+.input,
+.stage {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 110%;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0 10px;
+  background: transparent;
+}
+.stage {
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+.arrow {
+  color: #000;
+  font-size: 22px;
+  cursor: pointer;
+}
+.label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #989898;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+}
+
+.button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+  background: #c33d94;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-top: auto;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .card {
+    padding: 20px 12px;
+  }
+  .button {
+    padding: 10px 16px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .presaleCalculator {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,86 @@
+.progressbarContainer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding: 15px 0;
+  padding-bottom: 18px;
+  width: 100%;
+}
+.progressBar {
+  display: flex;
+  align-items: center;
+
+  height: 9.21px;
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 200;
+  transition: background-color 0.5s ease-out;
+
+  position: relative;
+}
+.iconContainer {
+  width: 45.58px;
+  height: 45.58px;
+  border-radius: 50%;
+  background: #c33d94;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 25.97;
+  height: 34.45px;
+}
+.checkmarkContainer {
+  background: rgba(195, 61, 148, 0.73);
+  border: 4px solid #ed9f21;
+  border-radius: 50%;
+  width: 26.1px;
+  height: 26.1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -1px;
+}
+.checkMark {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 1px;
+}
+
+.progress {
+  height: 100%;
+  background: #ed9f21;
+  border-radius: 200;
+  height: 100%;
+  transition: width 0.8s ease-out;
+
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  color: #fff;
+  font-size: 45px;
+  right: 0;
+  top: 0px;
+  transform: translateX(50%);
+}
+@media only screen and (max-width: 520px) {
+  .iconContainer {
+    width: 36px;
+    height: 36px;
+  }
+  .icon {
+    width: 20px;
+    height: 27px;
+  }
+  .checkMark {
+    font-size: 14px;
+  }
+  .arrow {
+    font-size: 28px;
+    top: 6px;
+  }
+}

@@ -1,0 +1,75 @@
+.buyToday {
+  background: rgba(195, 61, 148, 0.15);
+  padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.logoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.titleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50.154px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.logo {
+  width: 174px;
+  height: 87.58px;
+}
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  padding: 14px 15px;
+  background: #c33d94;
+  border-radius: 5px;
+  min-width: 282px;
+}
+.partners {
+  width: 120px;
+}
+@media only screen and (max-width: 520px) {
+  .title {
+    font-size: 45px;
+  }
+  .logo {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .title {
+    font-size: 36px;
+  }
+  .logo {
+    width: 150px;
+  }
+}

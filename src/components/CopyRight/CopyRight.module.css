@@ -1,0 +1,16 @@
+.copyRight {
+  background: #000000;
+  padding: 15px 10px;
+}
+
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+
+  text-align: center;
+
+  color: #ffffff;
+}

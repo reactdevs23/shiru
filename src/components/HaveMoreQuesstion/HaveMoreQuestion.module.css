@@ -1,0 +1,62 @@
+.haveMoreQuestion {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.05px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c33d94;
+  padding-bottom: 5px;
+}
+.tagline {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  max-width: 738.14px;
+}
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  color: #000000;
+  padding: 2px 0;
+}
+.mail {
+  text-decoration: underline;
+}
+.padding {
+  padding: 20px 0;
+}
+.iconContainer {
+  padding-top: 8px;
+}
+.telegram {
+  font-size: 47.39px;
+  color: #c33d94;
+}
+
+@media only screen and (max-width: 380px) {
+  .title {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
