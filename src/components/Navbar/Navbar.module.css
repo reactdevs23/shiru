@@ -55,7 +55,7 @@
   color: #000000;
   padding: 12px 15px;
   background: transparent;
-  border: none;
+  border: 1px solid #000;
   outline: none;
   cursor: pointer;
 }
@@ -117,7 +117,6 @@
   }
   .button {
     min-width: 160px;
-    border: 1px solid #000;
   }
   .hamburger,
   .close {
