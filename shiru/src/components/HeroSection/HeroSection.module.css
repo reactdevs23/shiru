@@ -1,0 +1,207 @@
+.heroSection {
+  background: url("../../images/heroImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 130px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+.title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.05px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tagline {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.05px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 0;
+  padding-bottom: 40px;
+}
+.currentValueText {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.05px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 0;
+}
+.currentValue {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.05px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 0;
+}
+
+.infoBox {
+  max-width: 1002.84px;
+  width: 100%;
+  background: rgba(195, 61, 148, 0.73);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.valueContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding-bottom: 13px;
+}
+.privateSale {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.05px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 0;
+  padding-top: 30px;
+}
+.currently,
+.totalRaised {
+  font-size: 20px;
+}
+.tokenNumber {
+  display: flex;
+  align-content: center;
+  gap: 60px;
+}
+.tokenNumber .text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.05px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  padding: 0;
+}
+.button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #ffffff;
+  background: #c33d94;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+  padding: 12px 30px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 991px) {
+  .heroSection {
+    padding: 70px 10px;
+  }
+
+  .infoBox {
+    padding: 20px 10px;
+  }
+  .valueContainer {
+    justify-content: center;
+  }
+  .currentValueText,
+  .totalRaisedText {
+    display: none;
+  }
+  .currentValue {
+    font-size: 30.087px;
+  }
+  .totalRaised {
+    font-size: 24.07px;
+  }
+  .privateSale {
+    font-size: 16px;
+  }
+  .tokenNumber {
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .title {
+    font-size: 33px;
+  }
+  .tagline {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .currentValue {
+    font-size: 24.087px;
+  }
+  .totalRaised {
+    font-size: 20px;
+  }
+  .privateSale {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .tokenNumber {
+    gap: 4px;
+  }
+  .tokenNumber .text {
+    font-size: 18px;
+  }
+  .button {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .title {
+    font-size: 30px;
+  }
+  .tagline {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .title {
+    font-size: 27px;
+  }
+  .tagline {
+    font-size: 18px;
+  }
+  .currentValue {
+    font-size: 22px;
+  }
+}

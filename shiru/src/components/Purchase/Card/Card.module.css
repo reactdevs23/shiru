@@ -1,0 +1,179 @@
+.cardContainer {
+  border-radius: 20px;
+
+  width: 100%;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+  height: 100%;
+}
+.usdtCard {
+  background: #0064aa;
+}
+.bnbCard {
+  background-color: #ab64a8;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buyBnb {
+  background: #ed9f21;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px 15px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #ffffff;
+  border-radius: 5px;
+
+  position: relative;
+}
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 110%;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0 10px;
+  background: transparent;
+}
+.label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #989898;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+}
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 8px;
+}
+.value {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+
+  color: #ffffff;
+}
+.reset {
+  text-decoration: underline;
+}
+.valueText {
+  font-weight: 400;
+}
+
+.list {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 120%;
+  color: #ffffff;
+  padding: 5px 0;
+}
+.button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+  background: #c33d94;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-top: auto;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.approveButton {
+  background: #c33d94;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.buyButton {
+  background: #ffffff;
+  border-radius: 5px;
+  color: #000000;
+}
+
+.button:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.buttonWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.textContaner {
+  width: 100%;
+}
+
+@media only screen and (max-width: 520px) {
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button {
+    padding: 10px 16px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .buttonWrapper {
+    grid-template-columns: 1fr;
+  }
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

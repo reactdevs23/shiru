@@ -1,0 +1,64 @@
+.purchasingContainer {
+  padding: 60px 0;
+}
+
+.title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.05px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c33d94;
+}
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  gap: 10px;
+  padding: 40px 0;
+}
+.button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+  background: #c33d94;
+  border-radius: 5px;
+  padding: 15px 15px;
+
+  min-width: 282px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  justify-content: center;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .button {
+    padding: 10px 16px;
+  }
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+}

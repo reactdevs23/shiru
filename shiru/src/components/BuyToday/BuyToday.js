@@ -1,27 +1,14 @@
 import React from "react";
-
-import {
-  logo,
-  sslSecured,
-  copyRight,
-  contract,
-  secured,
-} from "../../images/images";
-import "./style.css";
 import styles from "./BuyToday.module.css";
+import { logo } from "../../images/images";
 
 const BuyToday = () => {
-  const facility = [copyRight, sslSecured, contract, secured];
+  const partners = [logo, logo, logo, logo];
   return (
     <div className={styles.buyToday}>
       <div className={styles.logoContainer}>
-        {facility.map((el, i) => (
-          <img
-            src={el}
-            alt="#"
-            key={i}
-            className={`${styles.facility} facility${i + 1}`}
-          />
+        {partners.map((el, i) => (
+          <img src={el} alt="#" key={i} className={styles.partners} />
         ))}
       </div>
       <div className={styles.titleContainer}>

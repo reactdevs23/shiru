@@ -1,0 +1,23 @@
+.facility1 {
+  width: 100px;
+}
+.facility2 {
+  width: 200px;
+}
+.facility3 {
+  width: 170px;
+}
+.facility4 {
+  width: 130px;
+}
+@media only screen and (max-width: 350px) {
+  .facility2 {
+    width: 180px;
+  }
+  .facility3 {
+    width: 160px;
+  }
+  .facility4 {
+    width: 110px;
+  }
+}
